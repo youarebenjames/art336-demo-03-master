@@ -22,17 +22,32 @@ $background-color-alternate: #d8c0ff;
 }
 
 @mixin body-font-regular {
-
+font-family: "adelle",serif;
+font-style: normal;
+font-weight: 300;
 }
 
 @mixin body-font-italic {
-
+font-family: "adelle",serif;
+font-style: italic;
+font-weight: 300;
 }
 
 @mixin body-font-bold {
-
+font-family: "adelle",serif;
+font-style: normal;
+font-weight: 700;
 }
 
 @mixin headline-font {
-
+    font-family: "cubano",sans-serif;
+    font-style: normal;
+    font-weight: 400;
 }
+
+@keyframes colorchange-background {
+    0% { background-color: $background-color; }
+    50% { background-color: $background-color-alternate; }
+    100% { background-color: $background-color; }
+}
+    

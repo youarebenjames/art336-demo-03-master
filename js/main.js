@@ -1,6 +1,6 @@
 // initialize animated anchor scroll
 // Remove /* and */ to initiate the plugin
-/* $(function() {
+$(function() {
     $('a[href*=#]:not([href=#])').click(function() {
         if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
             var target = $(this.hash);
@@ -13,7 +13,7 @@
             }
         }
     });
-}); */
+}); 
 
 
 // initialize fitvids.js
@@ -25,7 +25,7 @@
 
 // initialize bigtext.js
 // Remove /* and */ to initiate the plugin
-/* $(function() {
+ $(function() {
     WebFont.load({
         custom: {
             families: ['cubano'], // font-family name
@@ -38,17 +38,17 @@
             $('#webapps-headline').bigtext();
         }
     });
-}); */
+}); 
 
 
 // initialize Menu Button Expand/Collapse
 // Remove /* and */ to initiate the plugin
-/* $(document).ready(function(){
+ $(document).ready(function(){
     $(".toggle-button").next("ul").hide();
     $(".toggle-button").click(function(){
         $(".toggle-button").next("ul").slideToggle();
     });
-});*/
+});
 
 
 // initialize responsiveslides.js

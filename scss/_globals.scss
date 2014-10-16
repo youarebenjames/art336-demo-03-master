@@ -45,9 +45,21 @@ font-weight: 700;
     font-weight: 400;
 }
 
+@mixin reversed-background-font {
+    background-color: $color;
+    color: $background-color;
+}
+
 @keyframes colorchange-background {
     0% { background-color: $background-color; }
     50% { background-color: $background-color-alternate; }
     100% { background-color: $background-color; }
 }
+
+@keyframes colorchange-font {
+    0% { color: $background-color; }
+    50% { color: $background-color-alternate; }
+    100% { color: $background-color; }
+}
+    
     

@@ -4,3 +4,27 @@ Layout Rules
     Layout styles can also be divided into major and minor styles based on reuse. Major layout styles such as header and footer are traditionally styled using ID selectors but take the time to think about the elements that are common across all components of the page and use class selectors where appropriate.
 */
 
+
+nav[role="navigation"] {
+        text-align: right;
+}
+
+nav[role="navigation"] ul {
+    list-style-type: none;
+    margin: 12px 0 0 0;
+    padding: 0;
+}
+
+nav[role="navigation"] ul li {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+}
+
+header[role="banner"] {
+        margin: 30px 0 100px 0;
+}
+
+.banner-photo {
+    text-align: center;
+}

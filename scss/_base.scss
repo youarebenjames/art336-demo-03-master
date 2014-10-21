@@ -18,6 +18,11 @@ body{
     width: 100%;
 }
 
+img {
+    height: auto;
+    max-width: 100%;
+}
+
 h1, h2 {
     @include headline-font;
 }

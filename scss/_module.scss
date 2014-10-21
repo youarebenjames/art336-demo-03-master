@@ -61,6 +61,20 @@ header[role="banner"] a:hover {
     transition: color 400ms linear;
 }
 
+.contact svg {
+    height: 24px;
+    width: 24px;
+}
+
+.contact svg path {
+    fill: $background-color;
+    transform: fill 400ms linear;
+}
+
+.contact a:hover svg path {
+    fill: darken($background-color,12%);
+    transform: fill 400ms linear;
+}
 
 main[role="main"] h1 {
     animation: colorchange-font 5s linear 1s infinite alternate;
